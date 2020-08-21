@@ -5,9 +5,9 @@ var app = express();
 var uploadHandler = multer({
   storage: multerGoogleStorage.storageEngine({
     autoRetry: true,
-    bucket: 'asia.artifacts.mymernstackapp.appspot.com',
-    projectId: 'mymernstackapp',
-    keyFilename: './mymernstackapp-28ff52c9b6ff.json',
+    bucket: '<bucketName>',
+    projectId: '<projectId>',
+    keyFilename: '<pathToKeyFile>',
     filename: (req, file, cb) => {
       cb(null, `/projectimages/${Date.now()}_${file.originalname}`);
     }
