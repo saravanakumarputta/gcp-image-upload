@@ -10,7 +10,7 @@ Install the dependencies using `npm i`.
 ## Step 3
 Download the key file from your GCP account using below steps.
 
-1. Go to your GCP console or here.
+1. Go to your GCP console or [here](https://console.cloud.google.com/).
 2. Choose the project which you have created.
 3. Then navigate to IAM and Admin option in the sidebar and select Service Accounts options.
 4. Then click on the More icon at the end of your project and select Create Key.
